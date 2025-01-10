@@ -46,6 +46,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 1rem;
 }
 .nav-title{
     color: rgb(14, 14, 14);
