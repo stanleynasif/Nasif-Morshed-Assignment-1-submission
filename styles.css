@@ -1,4 +1,4 @@
-
+/* I TRIED TO MAKE IT RESPONSIVE, SO, I DIDN'T USE PIXEL UNIT. THEREFORE, SOME PLACES HAVE 1-3PX DIFFERENT FROM THE FIGMA FILE.*/
 .fira-sans-regular{
     font-family: "Fira Sans", serif;
     font-optical-sizing: auto;
@@ -27,7 +27,7 @@ body{
     padding: .8rem 1.6rem;
     border-radius: .5rem;
     background: rgb(0, 106, 80);
-    border: 0;
+    border: .16rem solid rgb(0, 106, 80);
     color: rgb(255, 255, 255);
     font-size: 1.125rem;
     font-weight: 600;
@@ -50,17 +50,15 @@ body{
     font-size: 2.5rem;
     font-weight: 700;
     line-height: 1.2em;
-    letter-spacing: 0%;
     text-align: center;
     margin: 1rem;
     width: 20rem;
 }
 .secondary-btn:hover{
-    border-radius: 2rem;
+    border-radius: 2.5rem;
     border: .16rem solid rgb(198, 228, 214);
     background: rgb(198, 228, 214);
     color: rgba(14, 14, 14, 0.8);
-    font-size: 3rem;
     box-shadow: .2rem .2rem .5rem 0rem rgba(0, 106, 80, 0.3);
 }
 .section-title{
@@ -229,12 +227,15 @@ header{
 }
 #vbtn1{
     background: rgb(84, 144, 245);
+    border: .16rem solid rgb(84, 144, 245);
 }
 #vbtn2{
     background: rgb(9, 161, 92);
+    border: .16rem solid rgb(9, 161, 92);
 }
 #vbtn3{
     background: rgb(255, 194, 57);
+    border: .16rem solid rgb(255, 194, 57);
 }
 #vbtn1:hover{
     border: .16rem solid rgb(84, 144, 245);
@@ -311,7 +312,7 @@ thead{
 }
 select{
     box-sizing: border-box;
-    border: .16rem solid rgb(198, 228, 214)inset;
+    border: .16rem solid rgb(198, 228, 214);
     border-radius: .5rem;
     background: rgb(198, 228, 214);
     padding: 1rem 1rem 1rem 1rem;
@@ -388,7 +389,6 @@ select:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 #Dbody{
     margin: 0 2rem;
@@ -455,15 +455,15 @@ select:hover{
 .Newsletter_Btn{
     color: rgb(255, 255, 255);
     font-family: Fira Sans;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 600;
-    line-height: 22px;
+    line-height: 1.2em;
     letter-spacing: 0%;
     text-align: left;
     padding: 1.125rem 2.5rem;
     border-radius: 0px 8px 8px 0px;
     background: rgb(0, 106, 80);
-    border: 0;
+    border:.16rem solid rgb(0, 106, 80);
 }
 .Newsletter_Btn:hover{
     border-radius: 0 .5rem .5rem 0;
@@ -474,3 +474,27 @@ select:hover{
     box-shadow: .2rem .2rem .5rem 0rem rgba(0, 106, 80, 0.3);
 }
 /*Footer Section Styles*/
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#foooter{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin: 1rem;
+}
+.footer-image img{
+    padding: 1.5rem;
+}
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 80%;               
+    background-color:rgba(14, 14, 14, 0.1);
+    height: 1px;
+}
