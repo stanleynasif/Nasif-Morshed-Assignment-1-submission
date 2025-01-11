@@ -48,7 +48,7 @@ body{
     font-weight: 700;
     line-height: 1.2em;
     letter-spacing: 0%;
-    margin: 2rem;
+    margin: 2.5rem;
 }
 .body-title{
     color: rgba(14, 14, 14, 0.8);
@@ -166,7 +166,7 @@ header{
     margin-top: 2rem;
 }
 .v-body{
-    margin: 2rem;
+    margin: 2.5rem;
 }
 .vision-card-container{
     display: flex;
@@ -225,14 +225,14 @@ header{
     background: transparent;
     color: rgb(255, 194, 57);
 }
-/*Quote Section*/
+/*Quote Section Styles*/
 .quote{
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 1rem;
     background: rgb(255, 255, 255);
     padding: 3rem 1.5rem 3rem 1.5rem;
-    margin: 0 2.5rem;
+    margin: 3rem 2.5rem;
     background-image: url("assets/quote-bg.png");
     background-repeat: no-repeat;
     background-position: 1.5rem 1.5rem;
@@ -246,3 +246,50 @@ header{
     letter-spacing: 0%;
     text-align: left;
 }
+.opinion{
+    margin: 5rem 3rem;
+}
+/*Table Section Styles*/
+.table-container{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 1rem;
+    background: rgb(255, 255, 255);
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+.opinion-table th{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+select, .opinion-table td{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.25em;
+    letter-spacing: 0%;
+    text-align: left;
+}
+table {
+    border-collapse: collapse;
+    width:100%;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 1.5rem;
+}
+thead{
+    background-color: rgb(198, 228, 214);
+}
+select{
+    box-sizing: border-box;
+    border: 1px solid rgb(198, 228, 214)inset;
+    border-radius: .5rem;
+    background: rgb(198, 228, 214);
+    padding: 1rem 1rem 1rem 1rem;
+}
+/*News Section Styles*/
